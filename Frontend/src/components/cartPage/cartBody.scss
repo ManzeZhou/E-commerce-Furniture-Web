@@ -1,0 +1,176 @@
+
+.product-first-img {
+  width: 10em;
+}
+
+.remove-item  {
+  display: inline-block;
+  margin-top: 3px;
+  color: red;
+  color: #2c86aa;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+.cart-main {
+  max-width: 1600px;
+  min-height: 300px;
+  margin: 0 auto 30px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.cart-header {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header-content{
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.sub-3 {
+  text-decoration: underline;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.cart-empty {
+  text-align: center;
+  margin-bottom: 20px;
+  &-msg {
+
+    margin-bottom: 60px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    a {
+      color: #2c86aa;
+      text-decoration: underline;
+    }
+
+  }
+}
+
+
+.checkoutBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: #cc331e;
+  border: 4px solid transparent;
+  color: #ffffff;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.cart-table {
+  margin-top: 30px;
+  width: 100%;
+  text-align: left;
+  &-header {
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: 400;
+    color: #252525;
+  }
+}
+.resize-img img {
+  margin-top: 20px;
+  min-width: 80%;
+  max-width: 100%;
+  width:200px;
+  height: auto;
+}
+
+
+
+.product-name  {
+  padding-top: 20px;
+  font-weight: bold;
+
+}
+
+@media only screen and (min-width: 992px) {
+  .cart-main {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .breadcrumb-nav {
+    display: flex;
+    margin: 16px 0;
+    opacity: 0.6;
+  }
+  .cart-header{
+    flex-direction: row;
+    justify-content: space-between;
+    h1 {
+      font-size: 40px;
+      line-height: 52px;
+    }
+  }
+  .sub-1{font-weight: 700;}
+
+  .cart-empty {margin-bottom: 40px;}
+}
+
+.checkout-box {
+  display: none;
+}
+.checkout-box.active {
+  width: 280px;
+  display: block;
+
+  .paypal {
+    border: 1px solid black;
+    border-radius: 18px;
+    height: 38px;
+    line-height: 35px;
+    cursor: pointer;
+
+    img {
+      height: 17px;
+      padding-right: 5px;
+    }
+    span {
+      font-size: 13px;
+    }
+    }
+
+  .paypal-button {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img {
+      padding-right: 5px;
+      cursor: pointer;
+      opacity: 0.9;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+}

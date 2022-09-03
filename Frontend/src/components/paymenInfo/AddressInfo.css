@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.edit-address {
+  margin-top: 50px;
+  height: 60px;
+  background-color: #ececec;
+  line-height: 60px;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+.form-container {
+  width: 600px;
+  margin: 30px auto 50px;
+}
+.form-container form {
+  margin-bottom: 30px;
+}
+.form-container form label {
+  font-weight: 700;
+  padding-top: 20px;
+  font-size: 16px;
+}
+.form-container form input {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.form-container form select {
+  width: 600px;
+  height: 40px;
+  border: 1px solid #d0d0d0;
+  outline: 0;
+}
+.form-container p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.form-container .default-address .icon {
+  padding-right: 10px;
+}
+.form-container .add-preferences {
+  color: #007eb9;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+.form-container .add-preferences:hover {
+  cursor: pointer;
+  color: #e47911;
+  text-decoration: underline;
+}
+.form-container .continue-to-payment {
+  text-align: center;
+}
+.form-container .continue-to-payment .complete-form {
+  display: none;
+}
+.form-container .continue-to-payment .complete-form.active {
+  display: block;
+  padding-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #e22d00;
+}
+.form-container .continue-to-payment .complete-form.active .complete-word {
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=AddressInfo.css.map */

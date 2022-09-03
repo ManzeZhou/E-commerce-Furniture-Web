@@ -1,0 +1,103 @@
+.track-order {
+  max-width: 1650px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.track-order .order-history {
+  padding: 10px;
+}
+.track-order .order-container {
+  padding: 20px 20px;
+  background-color: #f4f6f9;
+}
+.track-order .order-container .result {
+  padding-left: 60px;
+  font-weight: 600;
+}
+.track-order .order-container .order-block {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.track-order .order-container .order-block .order-content {
+  padding: 10px;
+  margin: 0 auto;
+}
+.track-order .order-container .order-block .order-content .order-list {
+  background-color: #fff;
+  border: 1px solid #e0e6ef;
+  border-radius: 4px;
+  list-style-type: none;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail {
+  color: black;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .order-head {
+  font-size: 16px;
+  padding: 17px 20px 20px 20px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .order-head .order-date {
+  line-height: 20px;
+  color: #1d252c;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .order-head .item-price {
+  display: inline-flex;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .order-head .item-price .order-quantity {
+  font-size: 14px;
+  color: #55555a;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .order-head .item-price .order-price {
+  font-weight: 600;
+  padding-left: 10px;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product {
+  margin-bottom: 0;
+  position: relative;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .detail {
+  text-align: right;
+  padding: 10px;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .detail .details {
+  cursor: pointer;
+  color: #0d6efd;
+  font-weight: 600;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .order-number {
+  padding: 10px 20px;
+  font-weight: 600;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .order-number a:hover {
+  text-decoration: underline;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .line {
+  border-bottom: 1px solid #e0e6ef;
+  display: block;
+  height: 1px;
+  margin: 0 17px;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .order-img {
+  padding: 20px 0;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .order-img .order-pic {
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .order-img .order-name {
+  padding-left: 25%;
+  font-weight: 600;
+  font-size: 17px;
+  color: #1d252c;
+}
+.track-order .order-container .order-block .order-content .order-list .order-detail .product .order-img .order-selection {
+  font-size: 14px;
+  color: #55555a;
+}
+
+/*# sourceMappingURL=TrackOrder.css.map */

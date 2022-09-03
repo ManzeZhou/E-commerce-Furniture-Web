@@ -1,0 +1,82 @@
+.filter-bar-right {
+  display: flex;
+  justify-content: space-around;
+  float: right;
+  max-width: 34%;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 991px) {
+    display: block;
+    float: unset !important;
+    margin: 0 !important;
+    width: 100vw !important;
+    justify-content: none !important;
+    max-width: 100vw;
+  }
+
+  .filter-text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    border: none;
+    display: inline-block;
+
+    @media screen and (max-width: 991px) {
+      display: block;
+      font-weight: 700;
+      margin: 15px 40px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #d7d7d7;
+    }
+  }
+
+  .sorting-icon {
+    position: relative;
+    top: 3px;
+    height: 20px;
+    width: 72px;
+    margin-left: 20px;
+
+    @media screen and (max-width: 991px) {
+      display: none !important;
+    }
+
+    .sorting-icon-before {
+      width: 32px;
+      background-size: 32px 20px !important;
+      background-position: 0;
+      background-repeat: no-repeat;
+      opacity: 0.2;
+
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      background: url('http://mfs.mark2win.com/static/media/three.6b8bc686.svg');
+
+      cursor: pointer;
+    }
+
+    .sorting-icon-after {
+      width: 32px;
+      background-size: 32px 20px !important;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      left: auto;
+      right: 0;
+      background: url('http://mfs.mark2win.com/static/media/four.af207341.svg');
+
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+
+.order-summary-container {
+  margin-top: 70px;
+
+  .order-summary {
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 0 80px;
+
+    .order-edit {
+      text-align: center;
+      height: 40px;
+      width: 70px;
+      line-height: 40px;
+      border: 2px solid #252525;
+      border-radius: 5px;
+      color: #252525;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+
+      .edit-icon {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .your-cart {
+    margin-top: 30px;
+    border: 2px solid #00816c;
+    border-radius: 10px;
+    cursor: pointer;
+
+    .your-cart-word {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 700;
+      padding: 10px 0;
+      border-bottom: 2px solid #00816c;
+
+    }
+
+    .cart-content {
+      display: none;
+    }
+    .cart-content.active {
+      height: 350px;
+      overflow: scroll;
+      display: block;
+      .your-cart-product {
+        display: flex;
+        padding: 30px 50px 30px 50px;
+        border-bottom: 1px solid #ebebeb;
+
+        .product-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding-top: 10px;
+          padding-left: 50px;
+
+          div {
+            font-size: 14px;
+          }
+          .product-name {
+            font-size: 18px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .sales-tax {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .shipping-fee {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .total {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+}

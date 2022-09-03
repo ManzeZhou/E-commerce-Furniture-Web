@@ -1,0 +1,87 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+h1 {
+  text-align: center;
+}
+.edit-address {
+  margin-top: 50px;
+  height: 60px;
+  background-color: #ececec;
+  line-height: 60px;
+  padding: 0 10px;
+  font-weight: 600;
+}
+.form-container {
+  width: 600px;
+  margin: 30px auto 50px;
+
+  form {
+    margin-bottom: 30px;
+    label {
+      font-weight: 700;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+    input {
+      width: 600px;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px solid #d0d0d0;
+      //border-top: 1px solid #bbb;
+      box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+      outline: 0;
+      font-size: 14px;
+      padding-left: 10px;
+    }
+    select {
+      width: 600px;
+      height: 40px;
+      border: 1px solid #d0d0d0;
+      outline: 0;
+
+    }
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .default-address {
+    .icon {
+      padding-right: 10px;
+    }
+  }
+
+  .add-preferences {
+    color: #007eb9;
+    font-size: 12px;
+    margin-bottom: 50px;
+    &:hover {
+      cursor: pointer;
+      color: #e47911;
+      text-decoration: underline;
+    }
+  }
+
+  .continue-to-payment {
+    text-align: center;
+    .complete-form {
+      display: none;
+    }
+    .complete-form.active {
+      display: block;
+      padding-bottom: 20px;
+      font-size: 22px;
+      font-weight: 700;
+      color: #e22d00;
+      .complete-word {
+        padding-left: 5px;
+      }
+    }
+  }
+}

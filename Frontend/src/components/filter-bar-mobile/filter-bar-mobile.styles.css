@@ -1,0 +1,113 @@
+.filter-bar_mobile {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .filter-bar_mobile {
+    max-width: 100vw;
+    border: 1px solid #252525;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+    float: none;
+    color: #121212;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    background: none;
+    padding: 10px 0 0 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .filter-bar_mobile .filter-mobile-text {
+    float: none;
+    /* color: #121212; */
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    background: none;
+    height: inherit;
+    padding: 0 0 0 15px;
+    /* display: block;*/
+  }
+}
+@media only screen and (max-width: 991px) {
+  .filter-bar_mobile .filter-mobile-icon {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    color: #121212;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .filter-bar_mobile .all-refines {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .filter-bar_mobile .active {
+    display: block;
+    width: 100%;
+    background: #f5f5f5;
+    position: absolute;
+    left: -1px;
+    z-index: 1;
+    /* width: inherit; */
+    top: 60px;
+    border: 1px solid #ebebeb;
+    text-align: left;
+    vertical-align: baseline;
+  }
+}
+@media screen and (max-width: 991px) and (max-width: 991px) {
+  .filter-bar_mobile .active .filter-ele-mobile h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    position: relative;
+    cursor: pointer;
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 10px;
+    color: #252525;
+  }
+}
+@media screen and (max-width: 991px) and (max-width: 991px) {
+  .filter-bar_mobile .active .filter-ele-mobile .h3-price {
+    border-bottom: 1.5px solid #ebebeb;
+  }
+}
+@media screen and (max-width: 991px) and (max-width: 991px) {
+  .filter-bar_mobile .active .filter-ele-mobile .mobile-select-box {
+    display: none;
+    top: -10px;
+    margin: 0;
+    padding: 0 11px;
+    background-color: #ebebeb;
+    color: #252525;
+  }
+  .filter-bar_mobile .active .filter-ele-mobile .mobile-select-box li {
+    list-style: none;
+    padding: 5px 10px;
+    overflow: hidden;
+    line-height: 18px;
+    position: relative;
+  }
+  .filter-bar_mobile .active .filter-ele-mobile .mobile-select-box li a {
+    display: block;
+    height: 100%;
+    position: relative;
+    padding-left: 32px;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 13px 0;
+  }
+  .filter-bar_mobile .active .filter-ele-mobile .mobile-select-box li .mobile-select-close-btn {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=filter-bar-mobile.styles.css.map */

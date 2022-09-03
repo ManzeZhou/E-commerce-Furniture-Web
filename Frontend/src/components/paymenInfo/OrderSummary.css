@@ -1,0 +1,99 @@
+.order-summary-container {
+  margin-top: 70px;
+}
+.order-summary-container .order-summary {
+  display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+.order-summary-container .order-summary .order-edit {
+  text-align: center;
+  height: 40px;
+  width: 70px;
+  line-height: 40px;
+  border: 2px solid #252525;
+  border-radius: 5px;
+  color: #252525;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+.order-summary-container .order-summary .order-edit .edit-icon {
+  font-size: 18px;
+}
+.order-summary-container .your-cart {
+  margin-top: 30px;
+  border: 2px solid #00816c;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.order-summary-container .your-cart .your-cart-word {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 0;
+  border-bottom: 2px solid #00816c;
+}
+.order-summary-container .your-cart .cart-content {
+  display: none;
+}
+.order-summary-container .your-cart .cart-content.active {
+  height: 350px;
+  overflow: scroll;
+  display: block;
+}
+.order-summary-container .your-cart .cart-content.active .your-cart-product {
+  display: flex;
+  padding: 30px 50px 30px 50px;
+  border-bottom: 1px solid #ebebeb;
+}
+.order-summary-container .your-cart .cart-content.active .your-cart-product .product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.order-summary-container .your-cart .cart-content.active .your-cart-product .product-info div {
+  font-size: 14px;
+}
+.order-summary-container .your-cart .cart-content.active .your-cart-product .product-info .product-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.order-summary-container .subtotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.order-summary-container .sales-tax {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.order-summary-container .shipping-fee {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.order-summary-container .total {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=OrderSummary.css.map */
